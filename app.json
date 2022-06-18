@@ -1,26 +1,24 @@
 {
-    "name": "HANA-4-0",
-    "description": "MissHana_MsBot version 4.0 | new updates",
-    "keywords": [
-      "telegram",
-      "auto-filter",
-      "best",
-      "indian",
-      "pyrogram",
-      "bot"
-    ],
-    "repository": "https://github.com/arjun-sangu/HANA-4.0",
-    "env": {
-        "API_ID": {
-            "description": "Write something..🤣",
-            "value": "MissHana_MsBot",
-            "required": false
-        }
-    },
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+  "name": "HANA-4.0",
+  "description": "MissHana_MsBot | version 4.0",
+  "keywords": [
+    "telegram",
+    "best",
+    "file",
+    "forward",
+    "bot"
+  ],
+  "repository": "https://github.com/arjun-sangu/HANA-4.0",
+  "env": {
+    "API_ID": {
+      "description": "write something 🤣",
+      "value": "MissHana_MsBot"
     }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
