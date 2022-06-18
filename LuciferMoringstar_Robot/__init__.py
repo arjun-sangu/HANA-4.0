@@ -23,8 +23,8 @@ CHANNELS = CHANNELS
 LOG_CHANNEL = int(LOG_CHANNEL)
 ADMINS = ADMINS #[int(admin) if search.search(admin) else admin for admin in ADMINS.split()]
 AUTH_GROUPS = AUTH_GROUPS #[int(admin) for admin in AUTH_GROUPS.split()]
-AUTH_USERS = AUTH_USERS# (auth_users + ADMINS) if AUTH_USERS else []
-AUTH_CHANNEL = int(AUTH_CHANNEL) if AUTH_CHANNEL and search.search(AUTH_CHANNEL) else None
+AUTH_USERS = AUTH_USERS #(auth_users + ADMINS) if AUTH_USERS else []
+AUTH_CHANNEL = AUTH_CHANNEL #int(AUTH_CHANNEL) if AUTH_CHANNEL and search.search(AUTH_CHANNEL) else None
 SUPPORT = SUPPORT_CHAT
 GET_FILECHANNEL = int(GET_FILECHANNEL)
 # Cache Time
