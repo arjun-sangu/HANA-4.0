@@ -13,8 +13,9 @@
     "repository": "https://github.com",
     "env": {
         "NAME": {
-            "description": "Get this value from :- https://youtu.be/5eEsvLAKVc0",
-            "required": true
+            "description": "Write something..🤣",
+            "value": "MissHana_MsBot",
+            "required": false
         }
     },
     "formation": {
