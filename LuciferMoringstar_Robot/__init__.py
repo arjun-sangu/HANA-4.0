@@ -21,7 +21,7 @@ DATABASE_URI = DATABASE_URI
 # Channels & Admins
 CHANNELS = CHANNELS
 LOG_CHANNEL = int(LOG_CHANNEL)
-ADMINS = [int(admin) if search.search(admin) else admin for admin in ADMINS.split()]
+ADMINS = ADMINS #[int(admin) if search.search(admin) else admin for admin in ADMINS.split()]
 AUTH_GROUPS = [int(admin) for admin in AUTH_GROUPS.split()]
 AUTH_USERS = (auth_users + ADMINS) if AUTH_USERS else []
 AUTH_CHANNEL = int(AUTH_CHANNEL) if AUTH_CHANNEL and search.search(AUTH_CHANNEL) else None
