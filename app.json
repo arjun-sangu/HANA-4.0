@@ -1,5 +1,5 @@
 {
-    "name": "HANA-4.0",
+    "name": "HANA-4-0",
     "description": "MissHana_MsBot version 4.0 | new updates",
     "keywords": [
       "telegram",
@@ -9,10 +9,9 @@
       "pyrogram",
       "bot"
     ],
-    "website": "https://github.com",
     "repository": "https://github.com/arjun-sangu/HANA-4.0",
     "env": {
-        "NAME": {
+        "API_ID": {
             "description": "Write something..🤣",
             "value": "MissHana_MsBot",
             "required": false
