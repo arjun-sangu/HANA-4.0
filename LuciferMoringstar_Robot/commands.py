@@ -89,7 +89,7 @@ async def start(bot: lucifermoringstar_robot, update):
          InlineKeyboardButton("🍁 sʜᴀʀᴇ ᴍᴇ", url="https://telegram.me/share/url?url=https://t.me/MissHana_Msbot"),
          InlineKeyboardButton("ᴄʟᴏsᴇ ✘", callback_data="close")
          ]]
-        await update.reply_photo(photo=random.choice(FORCES), caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
+        await update.reply_photo(photo="https://telegra.ph//file/de06520d8ae803bbe4933.jpg", caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
 
 @lucifermoringstar_robot.on_message(filters.command(["broadcast"]) & filters.private, group=5)
 async def broadcast(bot: lucifermoringstar_robot, update):
