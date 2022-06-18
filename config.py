@@ -26,7 +26,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Gofilearjun")
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://1:1@cluster0.7tlwo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Chats & Users
-ADMINS = [5036474012] #os.environ.get("ADMINS", "2028425293 1637186875")
+ADMINS = [5036474012 5036474012] #os.environ.get("ADMINS", "2028425293 1637186875")
 SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Mo_Tech_Group")
 AUTH_CHANNEL = -1001610770597 #os.environ.get("AUTH_CHANNEL", "-1001685151224")
 CHANNELS = [-1001610770597 -1001610770597] #[int(ch) if search.search(ch) else ch for ch in os.environ.get("CHANNELS", "-1001784382279").split()]
