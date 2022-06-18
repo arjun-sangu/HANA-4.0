@@ -108,24 +108,7 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ----
 
-### How To Deploy
-<a href="https://youtu.be/gdz9PAGwEns"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/gdz9PAGwEns?style=social">
+### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/arjun-sangu/HANA-4.0)
 
 ----
-
-### How To Use This Bot
-<a href="https://youtu.be/zk5Rs3_Cqhw"><img src="https://img.shields.io/badge/How%20To%20Use-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/zk5Rs3_Cqhw?style=social">
-
-----
-
-### Deploy To Heroku
-<a href="https://github.com/arjun-sangu/HANA-4.0"><img src="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/logo/LuciferMoringstar-Deploy-To-Heroku%20(1).jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
-
-----
-
-### How To Fix Error 
-<a href="https://youtu.be/Zsknt_nY2LQ"><img src="https://telegra.ph/file/5c98868b0eea075cb7c77.jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
-
-----
-
-### -- Thankyou For Use -- 
