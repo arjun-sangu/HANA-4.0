@@ -89,7 +89,7 @@ async def start(bot: lucifermoringstar_robot, update):
          InlineKeyboardButton("🍁 sʜᴀʀᴇ ᴍᴇ", url="https://telegram.me/share/url?url=https://t.me/MissHana_Msbot"),
          InlineKeyboardButton("ᴄʟᴏsᴇ ✘", callback_data="close")
          ]]
-        await bot.reply_photo(
+        await update.reply_photo(
             photo=random.choice(FORCES), 
             caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username),
             reply_markup=InlineKeyboardMarkup(buttons))
